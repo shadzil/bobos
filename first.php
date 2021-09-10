@@ -2,11 +2,13 @@
 include_once "header.php";
 ?>
 
+<div class="intro">
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 
 
 
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  
+    
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -14,7 +16,8 @@ include_once "header.php";
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+  
+        <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -25,7 +28,7 @@ include_once "header.php";
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="assets/images/photo-1574085733277-851d9d856a3a.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
         <div class="container">
           <div class="carousel-caption">
@@ -55,6 +58,8 @@ include_once "header.php";
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div>
+
   </div>
 <!-- ------------------------------------------------------------------------------------------------------------ -->
 
