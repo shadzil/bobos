@@ -4252,12 +4252,14 @@ fieldset:disabled .btn {
 
 .navbar {
     position: relative;
+    margin: 0;
+    margin-top: -20% !important;
+    padding: 0 !important;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem
+    padding-bottom: .5rem;
 }
 
 .navbar>.container,
