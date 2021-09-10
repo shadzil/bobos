@@ -77,7 +77,7 @@ include_once "nav.php";
     </div>
   
 
-        <!-- Example row of columns -->
+        <!-- Example row of fjgnjfcolumns -->
         <div class="row">
           <div class="col-md-4">
           <img src="assets\images\eco-logo.png" class="d-block w-25 mx-auto" alt="...">
