@@ -1,6 +1,6 @@
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted bg-dark">
+<footer class="text-center text-lg-start bg-light text-muted fbgimg" style="background-image: url(assets/images/footerimage.jpg);">
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"

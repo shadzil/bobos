@@ -15,6 +15,10 @@
     font-family: 'Bubblegum Sans', cursive !important;
 }
 
+.fbgimg {
+    background-image: url(assets/images/footerimage.jpg);
+}
+
 
 /* ------------------------------------------------------------------------------------------- */
 
