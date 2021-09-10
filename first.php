@@ -2,7 +2,6 @@
 include_once "header.php";
 ?>
 
-<div class="col"  >
 
 <?php
 
@@ -70,31 +69,32 @@ include_once "nav.php";
 
 
 
-<div class="container-fluid  my-5">
+<div class="container-fluid  my-5 text-center px-5 p-3 ">
 
 
 <div class=" text-center heading-section ftco-animate">
-      <span class="subheading brushfont">Services</span>
-      <h2 class="mb-3 ">Our Latest Services</h2>
+      <h2 class="subheading brushfont">Services</h2>
     </div>
   
 
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
+          <img src="assets\images\eco-logo.png" class="d-block w-25 mx-auto" alt="...">
             <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>Donec id elit non mi porta gravida at eget metus., ut fermentum massa justo sit amet risus. Donec sed odio dui. </p>
           </div>
           <div class="col-md-4">
+          <img src="assets\images\fresh.png" class="d-block w-25 mx-auto" alt="...">
             <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>Donec id elit non mi porta  mollis euismod. Donec sed odio dui. </p>
+           
           </div>
           <div class="col-md-4">
+          <img src="assets\images\quality.png" class="d-block w-25 mx-auto" alt="...">
             <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      
           </div>
         </div>
 </div>
