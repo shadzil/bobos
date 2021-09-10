@@ -42,7 +42,7 @@
 
 
   </head>
-  <body>
+  <body style="background-image: url();"a>
   <nav class="navbar sticky-top bg-transparent navbar-expand-lg navbar-light bg-light" style="background-image: url('assets/images/sketch-header.png'); background-repeat: no-repeat; background-size: 100% 100%;">
   
   <a class="navbar-brand" href="#"><img src="assets/images/Untitled design (6).png" class="ms-4" width="120" alt="Logo"></a>
