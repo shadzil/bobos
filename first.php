@@ -1,13 +1,36 @@
 <?php
 include_once "header.php";
 ?>
-
-<div class="intro">
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
-
-
+  <nav class="navbar sticky-top bg-transparent navbar-expand-lg " style="background-image: url('assets/images/sketch-header.png'); background-repeat: no-repeat; background-size: 100% 100%;">
   
+  <a class="navbar-brand" href="#"><img src="assets/images/Untitled design (6).png" class=" "width="80" alt="Logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="my-2 my-lg-0">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Oder Now</button>
+    </form>
+  </div>
+</nav>
+<div class="intro"style="padding-top: -100px; >
+
+
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" ">
     
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -15,6 +38,7 @@ include_once "header.php";
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
+      
       <div class="carousel-item active">
   
         <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
