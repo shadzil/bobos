@@ -10,7 +10,7 @@ include_once "nav.php";
 
 
 
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" >
+<div id="myCarousel" class="carousel slide " data-bs-ride="carousel" >
     
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -69,11 +69,11 @@ include_once "nav.php";
 
 
 
-<div class="container-fluid  my-5 text-center px-5 p-3 ">
+<div class="container-fluid parallax  my-5 text-center px-5 p-3 ">
 
 
 <div class=" text-center heading-section ftco-animate">
-      <h2 class="subheading brushfont">Services</h2>
+      <h2 class="subheading brushfont" style="color: #deb150;">Services</h2>
     </div>
   
 
@@ -102,7 +102,7 @@ include_once "nav.php";
 
 
 
-<div class="container-fluid">
+<div class="container-fluid ">
 
 
 <div class=" text-center heading-section ftco-animate">
