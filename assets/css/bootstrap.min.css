@@ -13,6 +13,8 @@
 
 .brushfont {
     font-family: 'Bubblegum Sans', cursive !important;
+    color: #deb150;
+    font-size: 180%;
 }
 
 .fbgimg {
@@ -4652,7 +4654,8 @@ fieldset:disabled .btn {
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
+    background-color: #deb150;
 }
 
 .card-title {
@@ -7653,11 +7656,11 @@ fieldset:disabled .btn {
     padding-right: 3rem!important;
     padding-left: 3rem!important
 }
+
 .px-6 {
     padding-right: 5rem !important;
     padding-left: 5rem !important
 }
-
 
 .py-0 {
     padding-top: 0!important;

@@ -112,10 +112,10 @@ include_once "nav.php";
 <div class="container-fluid ">
 
 <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="assets/images/eco-logo.png" alt="Card image cap">
+  <img class="card-img-top" src="assets/images/fresh.png" alt="Card image cap">
   <div class="card-body ">
   <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
-    <p class="card-text" style="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
 
@@ -157,7 +157,9 @@ include_once "nav.php";
 </div>
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 
-<div id="carouselExampleIndicators" class="carousel slide  my-5" data-bs-ride="carousel">
+<!------------------------------------------------CUSTOMER REVIEW ------------------------------------------------------------------>
+<section data-aos="fade-up" style="background-image:url('assets/images/body-bg.jpg');">
+<div id="carouselExampleIndicators"  class="carousel slide mx-2" data-bs-ride="carousel" >
   <div class="carousel-indicators mt-5">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -165,19 +167,94 @@ include_once "nav.php";
   </div>
   <div class="carousel-inner text-center mx-2 mt-2 mb-3">
     <div class="carousel-item active">
-      <p>
-      <h2>What is Lorem Ipsum?</h2>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
     </div>
+</section>        
+</div>
     <div class="carousel-item text-center">
-      <p>
-      <h2>What is Lorem Ipsum?</h2>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+    
+        <div class="row">
+        <div class="col-sm-6">
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
     </div>
+</section> 
+        </div>
+        <div class="col-sm-6">
+<section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
+    </div>
+</section> 
+
+      </div>
+      </div>
     <div class="carousel-item text-center">
-      <p>
-      <h2>What is Lorem Ipsum?</h2>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
+    </div>
+</section>    
+    </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -189,106 +266,106 @@ include_once "nav.php";
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------>
-<section class="ftco-section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6 text-center mb-5">
-        <h2 class="heading-section">Contact us</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-12">
-        <div class="wrapper">
-          <div class="row no-gutters">
-            <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
-              <div class="contact-wrap w-100 p-md-5 p-4">
-                <h3 class="mb-4">Get in touch</h3>
-                <div id="form-message-warning" class="mb-4"></div>
-                <div id="form-message-success" class="mb-4">
-                  Your message was sent, thank you!
-                </div>
-                <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label class="label" for="name">Full Name</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label class="label" for="email">Email Address</label>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label class="label" for="subject">Subject</label>
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label class="label" for="#">Message</label>
-                        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="submit" value="Send Message" class="btn btn-primary">
-                        <div class="submitting"></div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-5 d-flex align-items-stretch">
-              <div class="info-wrap bg-success w-100 p-md-5 p-4">
-                <h3>Let's get in touch</h3>
-                <p class="mb-4">We're open for any suggestion or just to have a chat</p>
-                <div class="dbox w-100 d-flex align-items-start">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-map-marker"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-                  </div>
-                </div>
-                <div class="dbox w-100 d-flex align-items-center">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-phone"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                  </div>
-                </div>
-                <div class="dbox w-100 d-flex align-items-center">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-paper-plane"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                  </div>
-                </div>
-                <div class="dbox w-100 d-flex align-items-center">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-globe"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <p><span>Website</span> <a href="#">yoursite.com</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
+<!----------------------------------contact us ------------------------------------------------------------------------------------->
+<section class="ftco-section "data-aos="fade-up" style="background-color: black;">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Contact us</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Get in touch</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap bg-success w-100 p-md-5 p-4">
+									<h3>Let's get in touch</h3>
+									<p class="mb-4">We're open for any suggestion or just to have a chat</p>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-map-marker"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 <?php
 include_once "footer.php";
