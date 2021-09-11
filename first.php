@@ -169,7 +169,9 @@ include_once "nav.php";
 </div>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide mx-2" data-bs-ride="carousel">
+<!------------------------------------------------CUSTOMER REVIEW ------------------------------------------------------------------>
+<section data-aos="fade-up" style="background-image:url('assets/images/body-bg.jpg');">
+<div id="carouselExampleIndicators"  class="carousel slide mx-2" data-bs-ride="carousel" >
   <div class="carousel-indicators mt-5">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -177,14 +179,67 @@ include_once "nav.php";
   </div>
   <div class="carousel-inner text-center mx-2 mt-2 mb-3">
     <div class="carousel-item active">
-    <p><h2>What is Lorem Ipsum?</h2>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>    </div>
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
+    </div>
+</section>        
+</div>
     <div class="carousel-item text-center">
-    <p><h2>What is Lorem Ipsum?</h2>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>    </div>
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
+    </div>
+</section>    
+      </div>
     <div class="carousel-item text-center">
-      <p><h2>What is Lorem Ipsum?</h2>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+        </div>
+    </div>
+</section>    
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -196,9 +251,9 @@ include_once "nav.php";
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-<!---->
-<section class="ftco-section">
+</section>
+<!----------------------------------contact us ------------------------------------------------------------------------------------->
+<section class="ftco-section "data-aos="fade-up" style="background-color: black;">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
