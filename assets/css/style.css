@@ -526,6 +526,7 @@ mark,
 
 .figure {
     display: inline-block;
+    align-content: center;
 }
 
 .figure-img {

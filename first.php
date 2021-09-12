@@ -109,9 +109,72 @@ include_once "nav.php";
 
 
 
-<div  id="menu" class="container-fluid ">
+<div  id="menu" class="container-fluid " >
+<div class=" text-center heading-section ftco-animate">
+    <p class=" brushfont">Menu</p>
+  
 
-<div class="card" style="width: 20rem;">
+
+<div id="myBtnContainer" >
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('bpots')"> Biriyani Pots</button>
+  <button class="btn" onclick="filterSelection('lpack')"> Lunch Pack</button>
+  <button class="btn" onclick="filterSelection('mutt')"> Mutton Masala</button>
+  <button class="btn" onclick="filterSelection('bev')"> Bevarages</button>
+</div>
+
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="containermenue  ">
+ 
+<div>
+  <div class="filterDiv bpots">
+    <div class="card bpots " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Biriyani </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+
+</div>
+  <div class="filterDiv colors fruits"><div class="card  " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Italian pizza </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+</div>
+
+  <div class="filterDiv cars"><div class="card  " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Italian pizza </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+</div>
+
+  <div class="filterDiv colors"><div class="card  " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Italian pizza </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+</div>
+
+  <div class="filterDiv cars animals"><div class="card  " style="width: 18rem;" >
   <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
   <div class="card-body ">
   <h4> Italian pizza </h4>
@@ -121,46 +184,19 @@ include_once "nav.php";
   </div>
 </div>
 
+</div>
+</div>
+</div>
 
-  <div class="  text-center heading-section ftco-animate">
-    <span class=" brushfont">MENU</span>
-    <!-- <h2 class="mb-3">Our Latest Services</h2> -->
-    <!-- </div> -->
-    <div id="myBtnContainer">
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-      <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-      <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-      <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-    </div>
-
-
-
-    <div class="container">
-
-      
-      <div class="filterDiv cars">BMW</div>
-      <div class="filterDiv colors fruits">Orange</div>
-      <div class="filterDiv cars">Volvo</div>
-      <div class="filterDiv colors">Red</div>
-      <div class="filterDiv cars animals">Mustang</div>
-      <div class="filterDiv colors">Blue</div>
-      <div class="filterDiv animals">Cat</div>
-      <div class="filterDiv animals">Dog</div>
-      <div class="filterDiv fruits">Melon</div>
-      <div class="filterDiv fruits animals">Kiwi</div>
-      <div class="filterDiv fruits">Banana</div>
-      <div class="filterDiv fruits">Lemon</div>
-      <div class="filterDiv animals">Cow</div>
-    </div>
-
-
-  </div>
 </div>
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 
 <!------------------------------------------------CUSTOMER REVIEW ------------------------------------------------------------------>
-<section data-aos="fade-up" style="background-image:url('assets/images/body-bg.jpg');">
+
+
+<div  class="container-fluid " style="background-image:url('assets/images/body-bg.jpg');">
+
+<section >
 <div id="carouselExampleIndicators"  class="carousel slide mx-2" data-bs-ride="carousel" >
   <div class="carousel-indicators mt-5">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -189,6 +225,7 @@ include_once "nav.php";
     </div>
 </section>        
 </div>
+
     <div class="carousel-item text-center">
     
         <div class="row">
@@ -269,6 +306,7 @@ include_once "nav.php";
   </button>
 </div>
 </section>
+</div>
 <!----------------------------------contact us ------------------------------------------------------------------------------------->
 <section class="ftco-section "data-aos="fade-up" style="background-color: black;">
 		<div class="container">
@@ -369,47 +407,55 @@ include_once "nav.php";
 		</div>
 	</section>
 
+
+
+  <!--  -->
 <?php
 include_once "footer.php";
 ?>
 <style>
-  .container {
-    overflow: hidden;
-  }
+.containermenue {
+  overflow: hidden;
+ /* padding: auto; */
+ /* margin: auto; */
+ margin-left: 50px;
+ /* margin-right: 30px;  */
 
-  .filterDiv {
-    float: left;
-    /* background-color: #2196F3; */
-    /* color: #ffffff; */
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none;
-    /* Hidden by default */
-  }
+}
 
-  /* The "show" class is added to the filtered elements */
-  .show {
-    display: block;
-  }
+.filterDiv {
+  float: left;
+  /* background-color: #2196F3;
+  color: #ffffff; */
+  /* width: 100px; */
+  /* line-height: 100px;
+  text-align: center; */
+  /* margin: 2px; */
+  display: none; /* Hidden by default */
+  padding: auto;
+}
 
-  /* Style the buttons */
-  /* .btn {
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+/* .btn {
   border: none;
   outline: none;
   padding: 12px 16px;
   background-color: #f1f1f1;
   cursor: pointer;
-}
+} */
 
 /* Add a light grey background on mouse-over */
-  /* .btn:hover {
+/* .btn:hover {
   background-color: #ddd;
 } */
 
-  /* Add a dark background to the active button */
-  /* .btn.active {
+/* Add a dark background to the active button */
+/* .btn.active {
   background-color: #666;
   color: white;
 } */
