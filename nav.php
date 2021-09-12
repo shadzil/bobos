@@ -12,7 +12,7 @@
         <a class="nav-link" href="first.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="allcake.php">Cakes</a>
+        <a class="nav-link" href="#menu">Menu</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
