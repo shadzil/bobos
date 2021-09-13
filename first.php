@@ -77,25 +77,25 @@ include_once "nav.php";
 
 
   <!-- Example row of fjgnjfcolumns -->
-  <div class="row square-wrapper">
+  <div class="row square-wrapper justify-content-center">
 
 
-    <div class="col-md-4 square square-transition " data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+    <div class="col-md-4 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\eco-logo.png" class="d-block w-25 mx-auto" alt="...">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus., ut fermentum massa justo sit amet risus. Donec sed odio dui. </p>
+      <h2>ECO Friendly</h2>
+      <p>We use clay pots insted of plastic to save the mother earth and improve the quality of the food</p>
     </div>
 
 
 
-    <div class="col-md-4 square square-transition" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+    <div class="col-md-4 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\fresh.png" class="d-block w-25 mx-auto" alt="...">
       <h2>Heading</h2>
       <p>Donec id elit non mi porta mollis euismod. Donec sed odio dui. </p>
     </div>
 
 
-    <div class="col-md-4 square square-transition" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+    <div class="col-md-4 square square-transition sqrbox mx-2 my-2 " data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\quality.png" class="d-block w-25 mx-auto" alt="...">
       <h2>Heading</h2>
       <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -105,7 +105,7 @@ include_once "nav.php";
 
 
 </div>
-<!-- ------------MENU------------------------------------------------------------------------------- -->
+<!-- ------------MENU for the shop------------------------------------------------------------------------------- -->
 
 
 
@@ -126,7 +126,7 @@ include_once "nav.php";
 </div>
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-<div class="containermenue  ">
+<div class="containermenue justify-content-center  ">
  
 <div>
   <div class="filterDiv bpots">
@@ -407,104 +407,48 @@ include_once "nav.php";
   </a>
 </div>
 <!----------------------------------contact us ------------------------------------------------------------------------------------->
-<section class="ftco-section "data-aos="fade-up" style="background-color: black;">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Contact us</h2>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-12">
-					<div class="wrapper">
-						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
-								<div class="contact-wrap w-100 p-md-5 p-4">
-									<h3 class="mb-4">Get in touch</h3>
-									<div id="form-message-warning" class="mb-4"></div> 
-				      		<div id="form-message-success" class="mb-4">
-				            Your message was sent, thank you!
-				      		</div>
-									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="name">Full Name</label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
-												</div>
-											</div>
-											<div class="col-md-6"> 
-												<div class="form-group">
-													<label class="label" for="email">Email Address</label>
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="subject">Subject</label>
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="#">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary">
-													<div class="submitting"></div>
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-5 d-flex align-items-stretch">
-								<div class="info-wrap bg-success w-100 p-md-5 p-4">
-									<h3>Let's get in touch</h3>
-									<p class="mb-4">We're open for any suggestion or just to have a chat</p>
-				        	<div class="dbox w-100 d-flex align-items-start">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-map-marker"></span>
-				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-					          </div>
-				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-phone"></span>
-				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-					          </div>
-				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-paper-plane"></span>
-				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-					          </div>
-				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-globe"></span>
-				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
-					          </div>
-				          </div>
-			          </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+<div class="cswrapper ">
+    <div class="csoverlay">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-9">
+                <div class="contact-us text-center">
+                    <h3>Contact Us</h3>
+                    <p class="mb-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mt-5 text-center px-3">
+                                <div class="d-flex flex-row align-items-center"> <span class="icons"><i class="fa fa-map-marker"></i></span>
+                                    <div class="address cstextlft"> <span>Address</span>
+                                        <p>461, Sugar camp, San jose, California, USA</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="fa fa-phone"></i></span>
+                                    <div class="address cstextlft"> <span>Phone</span>
+                                        <p>501 205 2929</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="fa fa-envelope-o"></i></span>
+                                    <div class="address cstextlft"> <span>Address</span>
+                                        <p>contact@bbbootstrap.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center px-1">
+                                <div class="forms p-4 py-5 bg-white">
+                                    <h5>Send Message</h5>
+                                    <div class="mt-4 inputs"> <input type="text" class="form-control" placeholder="Name"> <input type="text" class="form-control" placeholder="Email"> <textarea class="form-control" placeholder="Type your message"></textarea> </div>
+                                    <div class="button mt-4 text-left"> <button class="btn btn-dark">Send</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -515,10 +459,10 @@ include_once "footer.php";
 <style>
 .containermenue {
   overflow: hidden;
- /* padding: auto; */
- /* margin: auto; */
- margin-left: 50px;
- /* margin-right: 30px;  */
+  padding: auto; 
+  align-items: center;
+  margin: auto;
+ justify-content: center;
 
 }
 
@@ -545,25 +489,117 @@ include_once "footer.php";
   /* outline: 2px;
   outline-color: black; */
   padding: 2px 5px;
-background-color: #deb150; 
-  color: black;
+  background-color: #000; 
+  color: white;
   cursor: pointer;
-  outline: 1px solid black;
-    outline-offset: -5px;
-    outline-color: black;
+  border: #deb150 solid 1px;
+  outline-color: #deb150;
+  outline-offset: -5px;
+  outline-color: black;
 } 
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-  background-color: black;
+  background-color: #deb150;
   color: white;
 } 
 
+.sqrbox{
+  border: #deb150 solid 1px;
+  padding: auto;
+
+}
+
 /* Add a dark background to the active button */
-/* .btn.active {
-  background-color: #666;
-  color: white;
-} 
+
+.cswrapper {
+    height: 100vh;
+    background: #000;
+    background: url("https://t4.ftcdn.net/jpg/03/04/19/71/360_F_304197125_VyputFZzIIam7Bp4KzAxFNGkgGSWQaEl.jpg");
+    background-size: cover;
+    width: 100%
+}
+
+.csoverlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.contact-us h3,
+p {
+    color: #fff
+}
+
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px
+}
+
+.address span {
+    color: #deb150
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px
+}
+
+.forms {
+    padding: 20px
+}
+
+.inputs input {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #eee
+}
+
+.inputs input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #deb150;
+    box-shadow: none
+}
+
+.inputs textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    resize: none
+}
+
+.inputs textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #deb150;
+    box-shadow: none;
+    resize: none
+}
+
+.form-control {
+    padding: .375rem .25rem
+}
+
+.cstextlft{
+  text-align: start;
+}
 </style>
 
 
