@@ -21,7 +21,7 @@ include_once "nav.php";
 
     <div class="carousel-item active">
 
-      <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
+      <img src="assets\images\b.png" class="d-block w-100" alt="...">
 
       <div class="container">
         <div class="carousel-caption text-start">
@@ -32,7 +32,7 @@ include_once "nav.php";
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
+      <img src="assets\images\b.png" class="d-block w-100" alt="...">
 
       <div class="container">
         <div class="carousel-caption">
@@ -43,7 +43,7 @@ include_once "nav.php";
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
+      <img src="assets\images\b.png" class="d-block w-100" alt="...">
 
       <div class="container">
         <div class="carousel-caption text-end">
@@ -123,7 +123,7 @@ include_once "nav.php";
       <button class="btn" onclick="filterSelection('bev')"> Bevarages</button>
     </div>
 
-  </div>
+<div class="containermenue ">
 
   <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 
@@ -439,7 +439,7 @@ include_once "nav.php";
 
 <!----------------------------------contact us ------------------------------------------------------------------------------------->
 
-
+<div class="container-fluid" style="background-color: #000;">
 <div class="cswrapper " id="contact">
   <div class="csoverlay">
     <div class="row d-flex justify-content-center align-items-center">
@@ -494,7 +494,7 @@ include_once "nav.php";
     </div>
   </div>
 </div>
-
+</div>
 
 
 <!--  -->
@@ -504,8 +504,8 @@ include_once "footer.php";
 <style>
   .containermenue {
 
-    overflow: hidden;
-    padding-left: 55px;
+ overflow: hidden; 
+/* padding-left: 4%; */
 
 
 
@@ -563,19 +563,19 @@ include_once "footer.php";
   /* Add a dark background to the active button */
 
 
-  .cswrapper {
-    height: 100vh;
+.cswrapper {
+    height: auto;
     background: #000;
-    background: url("https://t4.ftcdn.net/jpg/03/04/19/71/360_F_304197125_VyputFZzIIam7Bp4KzAxFNGkgGSWQaEl.jpg");
-    background-size: cover;
-    width: 100%
-  }
+    background: url("assets/images/body-bg.jpg");
+    
+}
 
-  .csoverlay {
-    width: 100%;
+.csoverlay {
     height: 100vh;
-    background: rgba(0, 0, 0, 0.8)
-  }
+    background: black;
+    width: 100%;
+
+}
 
   .contact-us {
     margin-top: 50px;
