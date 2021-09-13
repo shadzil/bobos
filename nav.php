@@ -15,7 +15,7 @@
         <a class="nav-link" href="#menu">Menu</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Contacts</a>
+        <a class="nav-link " href="#contact">Contacts</a>
       </li>
     </ul>
     <form class="my-2 my-lg-0">

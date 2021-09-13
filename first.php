@@ -80,7 +80,7 @@ include_once "nav.php";
   <div class="row square-wrapper justify-content-center">
 
 
-    <div class="col-md-4 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+    <div class="col-sm-3 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\eco-logo.png" class="d-block w-25 mx-auto" alt="...">
       <h2>ECO Friendly</h2>
       <p>We use clay pots insted of plastic to save the mother earth and improve the quality of the food</p>
@@ -88,14 +88,14 @@ include_once "nav.php";
 
 
 
-    <div class="col-md-4 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+    <div class="col-sm-3 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\fresh.png" class="d-block w-25 mx-auto" alt="...">
       <h2>Heading</h2>
       <p>Donec id elit non mi porta mollis euismod. Donec sed odio dui. </p>
     </div>
 
 
-    <div class="col-md-4 square square-transition sqrbox mx-2 my-2 " data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+    <div class="col-sm-3 square square-transition sqrbox mx-2 my-2 " data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\quality.png" class="d-block w-25 mx-auto" alt="...">
       <h2>Heading</h2>
       <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -427,12 +427,14 @@ include_once "nav.php";
   </a>
 </div>
 <!----------------------------------contact us ------------------------------------------------------------------------------------->
-<div class="cswrapper ">
+
+
+<div class="cswrapper " id="contact">
     <div class="csoverlay">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-9">
-                <div class="contact-us text-center">
-                    <h3>Contact Us</h3>
+                <div class="contact-us text-center ">
+                <p class=" brushfont">Contact Us</p>
                     <p class="mb-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                     <div class="row">
                         <div class="col-md-6">
@@ -530,6 +532,7 @@ padding-left: 55px;
 
 .sqrbox{
   border: #deb150 solid 1px;
+  
   padding: auto;
 
 }
