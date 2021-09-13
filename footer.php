@@ -2,7 +2,7 @@
 <!-- Footer -->
 
 
-<footer class="text-center text-lg-start parallax " style=" color: white; background-image: url(assets/images/footer-bg.jpg);  ">
+<footer class="text-center text-lg-start parallax " style=" color: white; background-image: url(assets/images/body-bg.jpg);  ">
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
