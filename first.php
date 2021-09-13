@@ -82,7 +82,7 @@ include_once "nav.php";
 
     <div class="col-sm-3 square square-transition sqrbox mx-2 my-2" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
       <img src="assets\images\eco-logo.png" class="d-block w-25 mx-auto" alt="...">
-      <h2>ECO Friendly</h2>
+      <h2 class="brushfont"> ECO Friendly</h2>
       <p>We use clay pots insted of plastic to save the mother earth and improve the quality of the food</p>
     </div>
 
@@ -134,9 +134,9 @@ include_once "nav.php";
 
 
     <div class="filterDiv bpots">
-      <div class="card" style="width: 18rem;">
+      <div class="cardmenu" style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Biriyani </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -147,9 +147,9 @@ include_once "nav.php";
     </div>
 
     <div class="filterDiv  bpots">
-      <div class="card  " style="width: 18rem;">
+      <div class="cardmenu  " style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Biriyani </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -159,9 +159,9 @@ include_once "nav.php";
     </div>
 
     <div class="filterDiv lpack">
-      <div class="card  " style="width: 18rem;">
+      <div class="cardmenu  " style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Lunch Pack </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -170,9 +170,9 @@ include_once "nav.php";
       </div>
     </div>
     <div class="filterDiv lpack">
-      <div class="card  " style="width: 18rem;">
+      <div class="cardmenu  " style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Lunch Pack </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -181,9 +181,9 @@ include_once "nav.php";
       </div>
     </div>
     <div class="filterDiv bpots">
-      <div class="card  " style="width: 18rem;">
+      <div class="cardmenu  " style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Italian pizza </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -193,9 +193,9 @@ include_once "nav.php";
     </div>
 
     <div class="filterDiv mutt">
-      <div class="card" style="width: 18rem;">
+      <div class="cardmenu" style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Italian pizza </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -205,9 +205,9 @@ include_once "nav.php";
     </div>
 
     <div class="filterDiv bev">
-      <div class="card" style="width: 18rem;">
+      <div class="cardmenu" style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Italian pizza </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -217,9 +217,9 @@ include_once "nav.php";
 
     </div>
     <div class="filterDiv bev">
-      <div class="card" style="width: 18rem;">
+      <div class="cardmenu" style="width: 18rem;">
         <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-        <div class="card-body ">
+        <div class="card-body-menu ">
           <h4> Italian pizza </h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
@@ -236,7 +236,8 @@ include_once "nav.php";
 
 
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
- 
+
+
 <!------------------------------------------------CUSTOMER REVIEW ------------------------------------------------------------------>
 
 
@@ -507,7 +508,9 @@ include_once "footer.php";
   .containermenue {
 
  overflow: hidden; 
-/* padding-left: 4%; */
+padding-left: 4%;
+
+
 
 
 

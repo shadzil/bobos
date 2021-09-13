@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top bg-transparent navbar-expand-lg navbar-light bg-light px-2 mb-3" style="background-image: url('assets/images/sketch-header.png'); background-repeat: no-repeat; background-size: 100% 105%;">
+<nav class="navbarcustome sticky-top bg-transparent navbar-expand-lg navbar-light bg-light px-2 mb-3" style="background-image: url('assets/images/sketch-header.png'); background-repeat: no-repeat; background-size: 100% 105%;">
   
   <a class="navbar-brand" href="#"><img src="assets/images/Untitled design (6).png" class="ms-4" width="100" alt="Logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
