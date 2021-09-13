@@ -115,7 +115,7 @@ include_once "nav.php";
   
 
 
-<div id="myBtnContainer" my-5 >
+<div id="myBtnContainer" >
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('bpots')"> Biriyani Pots</button>
   <button class="btn" onclick="filterSelection('lpack')"> Lunch Pack</button>
@@ -127,7 +127,7 @@ include_once "nav.php";
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 
-<div class="containermenue   ">
+<div class="containermenue  mx-auto ">
 
  
 
@@ -232,11 +232,11 @@ include_once "nav.php";
 
 
 
-<div class=" text-center heading-section ftco-animate  my-5">
+<div class=" text-center heading-section ftco-animate  my-5 ">
     <p class=" brushfont">Testimonial</p>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+<div id="carouselExampleIndicators" class="carousel slide parallax" data-ride="carousel" >
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
