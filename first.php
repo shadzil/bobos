@@ -127,7 +127,7 @@ include_once "nav.php";
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 
-<div class="containermenue  mx-auto ">
+<div class="containermenue ">
 
  
 
@@ -428,7 +428,7 @@ include_once "nav.php";
 </div>
 <!----------------------------------contact us ------------------------------------------------------------------------------------->
 
-
+<div class="container-fluid" style="background-color: #000;">
 <div class="cswrapper " id="contact">
     <div class="csoverlay">
         <div class="row d-flex justify-content-center align-items-center">
@@ -471,7 +471,7 @@ include_once "nav.php";
         </div>
     </div>
 </div>
-
+</div>
 
 
   <!--  -->
@@ -482,7 +482,7 @@ include_once "footer.php";
 .containermenue {
 
  overflow: hidden; 
-padding-left: 55px;
+padding-left: 10%;
 
 
 
@@ -541,17 +541,17 @@ padding-left: 55px;
 
 
 .cswrapper {
-    height: 100vh;
+    height: auto;
     background: #000;
-    background: url("https://t4.ftcdn.net/jpg/03/04/19/71/360_F_304197125_VyputFZzIIam7Bp4KzAxFNGkgGSWQaEl.jpg");
-    background-size: cover;
-    width: 100%
+    background: url("assets/images/body-bg.jpg");
+    
 }
 
 .csoverlay {
-    width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.8)
+    background: black;
+    width: 100%;
+
 }
 
 .contact-us {
