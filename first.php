@@ -115,7 +115,7 @@ include_once "nav.php";
   
 
 
-<div id="myBtnContainer" >
+<div id="myBtnContainer" my-5 >
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('bpots')"> Biriyani Pots</button>
   <button class="btn" onclick="filterSelection('lpack')"> Lunch Pack</button>
@@ -141,7 +141,38 @@ include_once "nav.php";
 </div>
 
 </div>
-  <div class="filterDiv colors fruits"><div class="card  " style="width: 18rem;" >
+
+  <div class="filterDiv colors bpots"><div class="card  " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Biriyani </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+</div>
+
+  <div class="filterDiv lpack"><div class="card  " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Lunch Pack </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+</div>
+<div class="filterDiv lpack"><div class="card  " style="width: 18rem;" >
+  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+  <div class="card-body ">
+  <h4> Lunch Pack  </h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+  </div>
+</div>
+</div>  <div class="filterDiv bpots"><div class="card  " style="width: 18rem;" >
   <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
   <div class="card-body ">
   <h4> Italian pizza </h4>
@@ -152,7 +183,7 @@ include_once "nav.php";
 </div>
 </div>
 
-  <div class="filterDiv cars"><div class="card  " style="width: 18rem;" >
+  <div class="filterDiv mutt"><div class="card" style="width: 18rem;" >
   <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
   <div class="card-body ">
   <h4> Italian pizza </h4>
@@ -163,18 +194,7 @@ include_once "nav.php";
 </div>
 </div>
 
-  <div class="filterDiv colors"><div class="card  " style="width: 18rem;" >
-  <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
-  <div class="card-body ">
-  <h4> Italian pizza </h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-    <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
-  </div>
-</div>
-</div>
-
-  <div class="filterDiv cars animals"><div class="card  " style="width: 18rem;" >
+  <div class="filterDiv bev"> <div class="card" style="width: 18rem;" >
   <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
   <div class="card-body ">
   <h4> Italian pizza </h4>
@@ -192,120 +212,199 @@ include_once "nav.php";
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 
 <!------------------------------------------------CUSTOMER REVIEW ------------------------------------------------------------------>
+<div class=" text-center heading-section ftco-animate  my-5">
+    <p class=" brushfont">Testimonial</p>
+</div>
 
-
-<div  class="container-fluid " style="background-image:url('assets/images/body-bg.jpg');">
-
-<section >
-<div id="carouselExampleIndicators"  class="carousel slide mx-2" data-bs-ride="carousel" >
-  <div class="carousel-indicators mt-5">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner text-center mx-2 mt-2 mb-3">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
     <div class="carousel-item active">
+
+    <div class="row">
+    <div class="col-sm-6">
     <section class="py-5">
     <div class="container">
         <!-- FOR DEMO PURPOSE -->
         <div class="row">
-            <div class="col-lg-6 mx-auto">
+
+            <div class="" >
 
                 <!-- CUSTOM BLOCKQUOTE -->
-                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
-                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color: #deb150;   outline: 1px solid black;
+    outline-offset: -10px;">
+                    <div class=""><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info"></a>."</p>
                     <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                         <cite title="Source Title">Source Title</cite>
                     </footer>
                 </blockquote><!-- END -->
 
             </div>
+
+            
         </div>
     </div>
-</section>        
-</div>
+</section> 
+    </div>
 
-    <div class="carousel-item text-center">
+
+    <div class="col-sm-6">
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+
+            <div class="" >
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color: #deb150;   outline: 1px solid black;
+    outline-offset: -10px;">
+                    <div class=""><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info"></a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+
+            
+        </div>
+    </div>
+</section> 
+    </div>
+
+    </div>
+    </div>
+
+    <div class="carousel-item">
+     <div class="row">
+    <div class="col-sm-6">
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+
+            <div class="" >
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color: #deb150;   outline: 1px solid black;
+    outline-offset: -10px;">
+                    <div class=""><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info"></a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+
+            
+        </div>
+    </div>
+</section> 
+    </div>
+
+
+    <div class="col-sm-6">
+    <section class="py-5">
+    <div class="container">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+
+            <div class="" >
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color: #deb150;   outline: 1px solid black;
+    outline-offset: -10px;">
+                    <div class=""><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info"></a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+
+            
+        </div>
+    </div>
+</section> 
+    </div>
     
-        <div class="row">
-        <div class="col-sm-6">
+    </div>
+    </div>
+    <div class="carousel-item">
+    <div class="row">
+    <div class="col-sm-6">
     <section class="py-5">
     <div class="container">
         <!-- FOR DEMO PURPOSE -->
         <div class="row">
-            <div class="col-lg-6 mx-auto">
+
+            <div class="" >
 
                 <!-- CUSTOM BLOCKQUOTE -->
-                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
-                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color: #deb150;   outline: 1px solid black;
+    outline-offset: -10px;">
+                    <div class=""><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info"></a>."</p>
                     <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                         <cite title="Source Title">Source Title</cite>
                     </footer>
                 </blockquote><!-- END -->
 
             </div>
+
+            
         </div>
     </div>
 </section> 
-        </div>
-        <div class="col-sm-6">
-<section class="py-5">
-    <div class="container">
-        <!-- FOR DEMO PURPOSE -->
-        <div class="row">
-            <div class="col-lg-6 mx-auto">
-
-                <!-- CUSTOM BLOCKQUOTE -->
-                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
-                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
-                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
-                        <cite title="Source Title">Source Title</cite>
-                    </footer>
-                </blockquote><!-- END -->
-
-            </div>
-        </div>
     </div>
-</section> 
 
-      </div>
-      </div>
-    <div class="carousel-item text-center">
+
+    <div class="col-sm-6">
     <section class="py-5">
     <div class="container">
         <!-- FOR DEMO PURPOSE -->
         <div class="row">
-            <div class="col-lg-6 mx-auto">
+
+            <div class="" >
 
                 <!-- CUSTOM BLOCKQUOTE -->
-                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
-                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color: #deb150;   outline: 1px solid black;
+    outline-offset: -10px;">
+                    <div class=""><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info"></a>."</p>
                     <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                         <cite title="Source Title">Source Title</cite>
                     </footer>
                 </blockquote><!-- END -->
 
             </div>
+
+            
         </div>
     </div>
-</section>    
+</section> 
+    </div>
+    
     </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</section>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 <!----------------------------------contact us ------------------------------------------------------------------------------------->
 <section class="ftco-section "data-aos="fade-up" style="background-color: black;">
@@ -441,24 +540,30 @@ include_once "footer.php";
 }
 
 /* Style the buttons */
-/* .btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
+ .btn {
+  /* border: none; */
+  /* outline: 2px;
+  outline-color: black; */
+  padding: 2px 5px;
+background-color: #deb150; 
+  color: black;
   cursor: pointer;
-} */
+  outline: 1px solid black;
+    outline-offset: -5px;
+    outline-color: black;
+} 
 
 /* Add a light grey background on mouse-over */
-/* .btn:hover {
-  background-color: #ddd;
-} */
+.btn:hover {
+  background-color: black;
+  color: white;
+} 
 
 /* Add a dark background to the active button */
 /* .btn.active {
   background-color: #666;
   color: white;
-} */
+} 
 </style>
 
 

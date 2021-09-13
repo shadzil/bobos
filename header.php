@@ -35,7 +35,7 @@
 </style> 
 
 <title>Bobos Biriyani</title>
- 
+<link rel="shortcut icon" href="assets/images//Untitled design (6).png">
 
 <!-- fonts -->
 <style>
