@@ -16,42 +16,23 @@ include_once "nav.php";
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
 
     <div class="carousel-item active">
 
-      <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
-
-      <div class="container">
-        <div class="carousel-caption text-start">
-          <h1>Example headline.</h1>
-          <p>Some representative placeholder content for the first slide of the carousel.</p>
-          <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-        </div>
-      </div>
+      <img src="assets\images\1.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
+      <img src="assets\images\2.png" class="d-block w-100" alt="...">
 
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Some representative placeholder content for the second slide of the carousel.</p>
-          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-        </div>
-      </div>
     </div>
     <div class="carousel-item">
-      <img src="assets\images\photo-1574085733277-851d9d856a3a.jpg" class="d-block w-100" alt="...">
-
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>One more for good mea78ooo78o7sure.</h1>
-          <p>Some representative placeholder content for the third slide of this carousel.</p>
-          <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-        </div>
-      </div>
+      <img src="assets\images\3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets\images\4.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
