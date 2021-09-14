@@ -110,7 +110,7 @@ include_once "nav.php";
 
   <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 
-  <div class="containermenue  ">
+  <!-- <div class="containermenue  ">
 
 
 
@@ -213,11 +213,99 @@ include_once "nav.php";
   </div>
 
 
-</div>
+</div> -->
 
 
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<div class="containe mx-3">
+<div class=" text-center heading-section ftco-animate">
+    <p class=" brushfont">Menu</p>
+	</div>
+    
+    <div class="myBtnContainer text-center heading-section">
+        <button class="btn btn-primary filter-button" data-filter="all">All</button>
+        <button class="btn btn-default filter-button" data-filter="bpots">bpots</button>
+        <button class="btn btn-default filter-button" data-filter="lpcks">lpcks</button>
+        <button class="btn btn-default filter-button" data-filter="bev">bev</button>
+        <button class="btn btn-default filter-button" data-filter="masala">masala</button>
+    </div>
+    <br/>
+    
+    <div class="row">
+        <div class="col-md-3 filter bpots">
+        <div class="cardmenu" >
+        <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+        <div class="card-body-menu ">
+          <h4> Italian pizza </h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
+          <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+        </div>
+      </div>
+            
+        </div>
+        
+        <div class="col-md-3 filter graphic lpcks">
+        <div class="cardmenu" >
+        <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+        <div class="card-body-menu ">
+          <h4> Italian pizza </h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+        </div>
+      </div>
+        </div>
+        
+        <div class="col-md-3 filter bpots">
+        <div class="cardmenu" >
+        <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+        <div class="card-body-menu ">
+          <h4> Italian pizza </h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+        </div>
+      </div>
+        </div>
+        
+        <div class="col-md-3 filter graphic bev">
+        <div class="cardmenu">
+        <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+        <div class="card-body-menu ">
+          <h4> Italian pizza </h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+        </div>
+      </div>
+        </div>
+        
+        <div class="col-md-3 filter webdesign bev">
+        <div class="cardmenu">
+        <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+        <div class="card-body-menu ">
+          <h4> Italian pizza </h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+        </div>
+      </div>
+        </div>
+        
+        <div class="col-md-3 filter masala">
+        <div class="cardmenu" >
+        <img class="card-img-top" src="assets/images/brijpg.jpg" alt="Card image cap">
+        <div class="card-body-menu ">
+          <h4> Italian pizza </h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <a href="#" class="theme-btn">Order Now <i class="fa fa-arrow-right"> </i> </a>
+        </div>
+      </div>
+        </div>
+    </div>
+</div>
 
 <!------------------------------------------------CUSTOMER REVIEW ------------------------------------------------------------------>
 
@@ -637,6 +725,53 @@ padding-left: 4%;
   .cstextlft {
     text-align: start;
   }
+
+  .port-image
+{
+    width: 100%;
+}
+
+.col-md-3
+{
+    margin-bottom:20px;
+}
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
+}
+
+.cap1
+{
+    position:absolute;
+    width:100%;
+    height:70%;
+    background:rgba(255, 255, 255, 0.5);
+    top:0px;
+    left:-100%;
+    padding:10px;
+    
+    transition: all .5s;
+}
+
+.cap2
+{
+    position:absolute;
+    width:100%;
+    height:30%;
+    background:rgba(0, 178, 255, 0.5);
+    bottom:0px;
+    left:100%;
+    padding:10px;
+    
+    transition: all .5s;
+}
 </style>
 
 
@@ -689,4 +824,27 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+$(document).ready(function(){
+
+$(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    }
+    else
+    {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+});
+
+});
 </script>
